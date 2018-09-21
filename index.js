@@ -1,7 +1,7 @@
 var express = require('express');
  
 var app = express();
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT;
  
 app.get('/:timestamp', function(request, response) {
 	var timestamp = request.params.timestamp;
