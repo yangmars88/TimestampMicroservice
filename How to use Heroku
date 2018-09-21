@@ -1,0 +1,13 @@
+npm i -g heroku  (this will install heroku)
+
+npm uninstall -g heroku-cli (this will unistall heroku-cli which is the older verison)
+
+heroku version / heroku -v  (this will give you heroku version)
+
+heroku login (will show heroku  log in email and password) (email may showed up defaultly, then go to next line input psw:2.M)
+
+heroku create (this will create a new apps in heroku website)
+
+git push heroku master ( this will deploy the code in the git to heroku app we just created)
+
+
